@@ -1,9 +1,17 @@
-This software is Qt4 library. Its purpose is make interaction with GPIB as easy
-as posible. Currently is adopted only for usign with development library for
-KU-308 USB GPIB converter but should be easyli modified to work with other
-GPIB devices for example from linux-gpib project. 
+ QGPIB library
 
+This software is Qt4 library. Its purpose is make interaction with GPIB as easy
+as posible. Currently is adopted only for usign with Keithley KUSB-488A USB to 
+GPIB converter but should be easyli modified to support other GPIB adapters, 
+for example from linux-gpib project. 
+
+  Licensing 
+  
 This library is licensed under both Apache license version 2.0 and LGPL version 
 2.1. See files APACHE-2.0.txt and LGPL-2.1.txt. Parts of this software is
 also licensed with BSD license. Dual licensing wos chosen in 
-order to make it usable in wide range of software withought fear.  
+order to make it usable in wide range of software withought fear.
+
+  Instalation
+This library depends on development files for KUSB-488A adapter avalilable from
+Keithley website.   
